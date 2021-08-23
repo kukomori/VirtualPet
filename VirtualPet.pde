@@ -5,6 +5,6 @@ void setup(){
 }
 void draw(){
   //more of your code here
-  circle(50,50,50);
+  circle(50,50,50,50);
 }
 
