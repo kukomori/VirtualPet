@@ -12,7 +12,8 @@ void draw(){
   noStroke();
   
   int y = arduino.analogRead(5);
-
+  System.out.println(y);
+  
   if (y > 300) {
     
     // reset
@@ -56,7 +57,7 @@ void draw(){
     // tail up
     rect(400,120,20,180);
     
-  } else if (y > 150) {
+  } else if (y > 100) {
     
     // reset
     background(0,0,0);
